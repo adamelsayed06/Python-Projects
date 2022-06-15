@@ -1,0 +1,53 @@
+print("Welcome to my computer quiz")
+score = 0
+
+playing = input("Do you want to play? ")
+
+if playing != "yes":
+    quit()
+    
+print("Okay! Let's play. ")
+
+answer = input("What does CPU stand for? ")
+if answer == "central processing unit":
+    print('Correct!')
+else:
+    print("Incorrect!")
+    
+    
+    
+answer = input("What does GPU stand for? ")
+if answer == "graphics processing unit":
+    score = score + 1
+    print('Correct!')
+else:
+    print("Incorrect!")
+    
+
+
+answer = input("When was the first personal computer invented?")
+if answer == "1973":
+    score = score + 1
+    print('Correct!')
+else:
+    print("Incorrect!")
+    
+answer = input("What is RAM also known as? ")
+if answer == "memory":
+    score = score + 1
+    print('Correct!')
+else:
+    print("Incorrect!")
+    
+    
+    
+answer = input("How many terabytes is 1000 gigabytes? ")
+if answer == "1":
+    score = score + 1
+    print('Correct!')
+else:
+    print("Incorrect!")
+    
+    
+print("Your score was ")
+print(score)
